@@ -1,0 +1,67 @@
+@import variables.sass
+
+#page-description
+    background-image: url(../image/banner.png)
+    background-position: center
+    background-size: cover
+
+.page-description
+    padding-top: 200px
+    padding-bottom: 200px
+    text-align: center
+    h1
+        color: $cl-white
+    h2
+        color: $cl-white
+    p
+        color: $cl-white
+        margin-top: 31px
+        font-size: 16px
+    form
+        max-width: 570px
+        margin: 0 auto
+        margin-top: 17px
+
+#banner-name,
+#banner-email
+    min-width: 270px
+    min-height: 50px
+    padding-left: 20px
+    margin-bottom: 1.5em
+    background-color: transparent
+    border: 2px solid #cacaca
+    border-radius: 2px
+
+#banner-name::placeholder
+    font-size: 14px
+    font-weight: bold
+    color: $cl-white
+
+#banner-email::placeholder
+    font-size: 14px
+    font-weight: bold
+    color: $cl-white
+
+#banner-btn
+    padding: 20px 30px
+    width: 100%
+    color: $cl-white
+    background-color: $cl-green
+    border: 0
+    border-radius: 5px
+
+@media screen and ( max-width: 415px )
+    .page-description
+        padding-top: 250px
+        p
+            margin-top: 16px
+        form
+            margin-top: 16px
+    #banner-email
+        margin-top: 24px
+        width: 100%
+    #banner-name
+        margin-bottom: 0
+        width: 100%
+    #banner-btn
+        margin-top: 24px
