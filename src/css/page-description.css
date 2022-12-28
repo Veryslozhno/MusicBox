@@ -37,6 +37,10 @@
   border-radius: 2px;
 }
 
+#banner-name {
+  margin-right: 24px;
+}
+
 #banner-name::-moz-placeholder {
   font-size: 14px;
   font-weight: bold;
@@ -91,14 +95,16 @@
   }
   .page-description form {
     margin-top: 16px;
+    width: 100%;
   }
   #banner-email {
     margin-top: 24px;
-    width: 100%;
+    width: 374px;
   }
   #banner-name {
     margin-bottom: 0;
-    width: 100%;
+    width: 374px;
+    margin-right: 0;
   }
   #banner-btn {
     margin-top: 24px;

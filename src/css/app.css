@@ -95,7 +95,6 @@ header {
   position: absolute;
   top: 25px;
   left: 0;
-  right: 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -162,14 +161,14 @@ header {
     margin-left: 0;
   }
   .header-search {
-    width: 100%;
+    width: 374px;
     margin-top: 23px;
   }
   #search {
-    width: 100%;
+    width: 374px;
   }
   .header-form {
-    width: 100%;
+    width: 374px;
   }
 }
 #page-description {
@@ -209,6 +208,10 @@ header {
   background-color: transparent;
   border: 2px solid #cacaca;
   border-radius: 2px;
+}
+
+#banner-name {
+  margin-right: 24px;
 }
 
 #banner-name::-moz-placeholder {
@@ -265,14 +268,16 @@ header {
   }
   .page-description form {
     margin-top: 16px;
+    width: 100%;
   }
   #banner-email {
     margin-top: 24px;
-    width: 100%;
+    width: 374px;
   }
   #banner-name {
     margin-bottom: 0;
-    width: 100%;
+    width: 374px;
+    margin-right: 0;
   }
   #banner-btn {
     margin-top: 24px;
@@ -537,9 +542,92 @@ header {
 .footer-upper {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.upper-cols {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+.upper-cols a {
+  background-color: transparent;
 }
 
 .footer-lover {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.footer-title {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #E0E0E0;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-link-1,
+.social-link-2,
+.social-link-3 {
+  margin-right: 24px;
+}
+
+.border {
+  border-bottom: 1px solid #CACACA;
+}
+
+.footer-lover {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  background-color: transparent;
+}
+
+.lover-link-1,
+.lover-link-2,
+.lover-link-3,
+.lover-link-4 {
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 415px) {
+  .upper-col-2,
+.upper-col-3,
+.upper-col-4 {
+    margin-top: 30px;
+  }
+  .footer-lover {
+    flex-direction: column;
+  }
+  .lover-link-1,
+.lover-link-2,
+.lover-link-3,
+.lover-link-4 {
+    margin-right: 0;
+  }
+  .lover-link-2,
+.lover-link-3,
+.lover-link-4,
+.lover-link-5 {
+    margin-top: 16px;
+  }
 }/*# sourceMappingURL=app.css.map */
