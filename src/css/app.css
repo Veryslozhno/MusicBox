@@ -510,6 +510,7 @@ header {
   background-color: #95390C;
   border-radius: 32px;
   margin-top: 16px;
+  padding: 16px 40px;
 }
 
 @media screen and (max-width: 415px) {
@@ -527,4 +528,18 @@ header {
 }
 .page-app-btn {
   margin-top: 15px;
+}
+
+#footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.footer-upper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer-lover {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }/*# sourceMappingURL=app.css.map */
