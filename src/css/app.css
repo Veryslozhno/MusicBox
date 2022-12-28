@@ -362,4 +362,92 @@ header {
 .card-price-desc {
   font-size: 12.8px;
   margin-top: 64px;
+}
+
+.page-pricing-text {
+  color: #FFF;
+  font-size: 16px;
+  margin-top: 43px;
+}
+
+@media screen and (max-width: 415px) {
+  .card-2 {
+    margin-top: 50px;
+  }
+  .card-3 {
+    margin-top: 50px;
+  }
+}
+#page-news {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.news-items {
+  margin-top: 48px;
+}
+.news-items .news-item-1,
+.news-items .news-item-2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.news-items .news-item-1 .news-img,
+.news-items .news-item-2 .news-img {
+  height: 286px;
+  width: 575px;
+  margin-right: 50px;
+}
+.news-items .news-item-1 .news-text h3,
+.news-items .news-item-2 .news-text h3 {
+  font-size: 30px;
+  color: #FFF;
+  line-height: 45px;
+  font-weight: normal;
+}
+.news-items .news-item-1 .news-text > p,
+.news-items .news-item-2 .news-text > p {
+  font-size: 16px;
+  margin-top: 30px;
+}
+.news-items .news-item-2 {
+  flex-direction: row-reverse;
+  margin-top: 45px;
+}
+
+.news-text-logodate {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 12px;
+}
+.news-text-logodate .news-logo {
+  height: 19px;
+  width: 19px;
+  margin-right: 16px;
+}
+.news-text-logodate .news-logo-text {
+  margin-right: 16px;
+  color: #F89202;
+}
+
+.news-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 53px;
+  width: 135px;
+  margin-top: 48px;
+  border: 1px solid #CACACA;
+  font-size: 12px;
+  color: #CACACA;
+}
+
+@media screen and (max-width: 415px) {
+  .news-item-1 .news-img,
+.news-item-2 .news-img {
+    height: 186px;
+    width: 374px;
+  }
 }/*# sourceMappingURL=app.css.map */
