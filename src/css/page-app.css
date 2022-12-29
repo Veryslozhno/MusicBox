@@ -1,0 +1,55 @@
+#page-app {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+#page-app h2 {
+  color: #FFF;
+}
+
+.page-app-col {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.page-app-col .page-app-col-1 {
+  text-align: left;
+  margin-right: 144px;
+  margin-top: 64px;
+  font-size: 16px;
+  max-width: 600px;
+}
+.page-app-col .page-app-col-2 {
+  margin-top: 48px;
+}
+
+.page-app-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 53px;
+  width: 131px;
+  font-size: 12.8px;
+  color: #FFF;
+  border: 0;
+  background-color: #95390C;
+  border-radius: 32px;
+  margin-top: 16px;
+  padding: 16px 40px;
+}
+
+@media screen and (max-width: 415px) {
+  .page-app-col .page-app-col-1 {
+    text-align: left;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    margin-top: 16px;
+  }
+  .page-app-col .page-app-col-2 {
+    margin: 0 auto;
+    margin-top: 48px;
+  }
+}
+.page-app-btn {
+  margin-top: 15px;
+}/*# sourceMappingURL=page-app.css.map */
