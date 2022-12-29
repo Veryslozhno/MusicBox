@@ -1,0 +1,37 @@
+@import variables.sass
+
+#page-discography
+    padding-top: 100px
+
+.page-discography-title
+    color: $cl-white
+    margin-bottom: 48px
+.album-title
+    font-size: 18px
+    line-height: 27px
+    font-weight: bold
+    text-transform: capitalize
+    margin-top: 18px
+    color: $cl-white
+
+.album-year
+    color: $cl-gray
+    font-size: 16px
+
+.artist-albums
+    display: flex
+    flex-wrap: wrap
+    column-gap: 50px
+    row-gap: 25px
+
+.album
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+
+@media screen and ( max-width: 415px )
+    .album-image
+        width: 137px
+        height: 137px
+    .album
+        width: 137px

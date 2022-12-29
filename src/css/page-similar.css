@@ -1,0 +1,49 @@
+#page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.page-similar-title {
+  color: #FFF;
+}
+
+.similar-artists {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 25px;
+}
+
+.similar-title {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 17px;
+  color: #FFF;
+}
+
+.similar-subscribes {
+  margin-top: 1px;
+  color: #E0E0E0;
+  font-size: 16px;
+}
+
+.similar-item {
+  text-align: center;
+}
+
+@media screen and (max-width: 415px) {
+  .similar-image {
+    width: 137px;
+    height: 137px;
+  }
+  .similar-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 137px;
+  }
+}/*# sourceMappingURL=page-similar.css.map */

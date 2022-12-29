@@ -1,0 +1,59 @@
+#page-description {
+  background-image: url(../image/Morten-Harket.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.page-description h1 {
+  color: #FFF;
+}
+.page-description > p {
+  color: #FFF;
+  margin-top: 16px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 12.8px;
+  padding: 20px 30px;
+  margin-top: 48px;
+  color: #FFF;
+  border-radius: 5px;
+}
+.btn img {
+  margin-right: 16px;
+}
+
+.page-description-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-purple {
+  margin-right: 1.5rem;
+  background-color: #5328A1;
+}
+
+.btn-red {
+  background-color: #95390C;
+}
+
+@media screen and (max-width: 415px) {
+  #page-description {
+    padding-top: 225px;
+  }
+  .btn {
+    margin: 0;
+  }
+  .btn-purple {
+    margin-top: 48px;
+  }
+  .btn-red {
+    margin-top: 24px;
+  }
+}/*# sourceMappingURL=page-description-artist.css.map */
