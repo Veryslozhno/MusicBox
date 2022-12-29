@@ -1,15 +1,12 @@
 install:
-	npm ci
-	npm run build
+	npm install
 
 lint:
-	npx htmlhint src/*.html
-	npx htmlhint --config htmlhint.conf src/*.html
-	npx stylelint src/scss/*.scss
-
-push: lint
-	git push origin main
+	npx stylelint ./src/css/*.css
+	npx stylelint ./src/scss/*.scss
+	npx stylelint ./src/scss/abstract/*.scss
+	npx stylelint ./src/scss/base/*.scss
+	npx htmlhint ./src/*.html
 
 deploy:
-	npm run build
-	npx surge src/
+	npx surge ./src/
